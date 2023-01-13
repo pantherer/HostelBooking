@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489598706859",
+    "project_id": "hostelbooking-a22eb",
+    "storage_bucket": "hostelbooking-a22eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489598706859:android:c45f0c957aa5a5026683ee",
+        "android_client_info": {
+          "package_name": "com.example.flutter_final_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489598706859-2rpt4k193jl6ahsor74b5sk94se2v3kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6p4Cfpzc3eAQY7NkJ71x63B--0Hp1lbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489598706859-2rpt4k193jl6ahsor74b5sk94se2v3kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
