@@ -1,4 +1,7 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_final_1/signup_page.dart';
+import 'package:get/get.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -29,15 +32,16 @@ class _LoginPageState extends State<LoginPage> {
               )
             ),
           ),
+          SizedBox(height: 30,),
           Container(
             margin: EdgeInsets.only(left: 20,right: 20),
             width: w,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("Hello",
+                Text("Welcome",
                   style: TextStyle(
-                    fontSize: 70,
+                    fontSize: 50,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -121,7 +125,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                 ),
-                SizedBox(height: 20,),
+                SizedBox(height: 30,),
                 Row(
                   children: [
                     Expanded(child: Container(),),
@@ -139,7 +143,7 @@ class _LoginPageState extends State<LoginPage> {
               ],
             ),
           ),
-          SizedBox(height: w*0.05),
+          SizedBox(height: w*0.07),
           Container(
             width: w*0.5,
             height: h*0.08,
@@ -162,7 +166,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
           ),
-          SizedBox(height: w*0.06),
+          SizedBox(height: w*0.08),
           RichText(text: TextSpan(
             text: "Don\'t have an acount?",
             style: TextStyle(
@@ -176,8 +180,8 @@ class _LoginPageState extends State<LoginPage> {
                 color: Colors.black,
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
-
               ),
+                recognizer: TapGestureRecognizer()..onTap=()=>Get.to(()=>SignUpPage())
               ),
             ]
 
